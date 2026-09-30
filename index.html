@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Logic Lab | Propositional Logic in AI</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">🧠</div>
+
+            <h1>Logic Lab</h1>
+
+            <p>
+                Learn Propositional Logic through an AI reasoning game
+            </p>
+        </header>
+
+
+        <!-- Game Card -->
+        <section class="game-card">
+
+            <!-- Top information -->
+            <div class="top-bar">
+
+                <div class="level-badge" id="level">
+                    Level 1
+                </div>
+
+                <div class="score-badge" id="score">
+                    Score: 0
+                </div>
+
+            </div>
+
+
+            <!-- Progress -->
+            <div class="progress-container">
+                <div
+                    class="progress-bar"
+                    id="progressBar">
+                </div>
+            </div>
+
+
+            <!-- Game Content -->
+            <div id="gameArea">
+
+                <div
+                    class="operator"
+                    id="operator">
+                    AND
+                </div>
+
+
+                <h2
+                    class="title"
+                    id="title">
+                    Loading...
+                </h2>
+
+
+                <p
+                    class="story"
+                    id="story">
+                </p>
+
+
+                <!-- Facts -->
+                <div class="facts">
+
+                    <h3>📌 Given Information</h3>
+
+                    <div id="facts"></div>
+
+                </div>
+
+
+                <!-- Formula -->
+                <div
+                    class="formula"
+                    id="formula">
+                </div>
+
+
+                <!-- Question -->
+                <p class="question">
+                    What is the result?
+                </p>
+
+
+                <!-- Answers -->
+                <button
+                    class="answer-btn true-btn"
+                    id="trueBtn">
+
+                    🟢 TRUE
+
+                </button>
+
+
+                <button
+                    class="answer-btn false-btn"
+                    id="falseBtn">
+
+                    🔴 FALSE
+
+                </button>
+
+
+                <!-- Feedback -->
+                <div
+                    class="feedback"
+                    id="feedback">
+                </div>
+
+
+                <!-- Next -->
+                <button
+                    class="next-btn"
+                    id="nextBtn">
+
+                    Next Challenge →
+
+                </button>
+
+            </div>
+
+
+            <!-- Finish Screen -->
+            <div
+                class="finish"
+                id="finish">
+
+                <div class="finish-icon">
+                    🎉
+                </div>
+
+                <h2>
+                    Logic Lab Complete!
+                </h2>
+
+                <p>
+                    You completed all the propositional logic challenges.
+                </p>
+
+
+                <div
+                    class="final-score"
+                    id="finalScore">
+                    0 / 70
+                </div>
+
+
+                <div class="learning-box">
+
+                    <h3>
+                        🧠 What You Learned
+                    </h3>
+
+                    <ul>
+
+                        <li>Propositions</li>
+
+                        <li>NOT operator</li>
+
+                        <li>AND operator</li>
+
+                        <li>OR operator</li>
+
+                        <li>Implication</li>
+
+                        <li>Compound expressions</li>
+
+                        <li>Modus Ponens</li>
+
+                        <li>Logical reasoning in AI</li>
+
+                    </ul>
+
+                </div>
+
+
+                <button
+                    class="restart-btn"
+                    id="restartBtn">
+
+                    🔄 Play Again
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- Footer -->
+        <footer>
+            <p>
+                Propositional Logic • Artificial Intelligence
+            </p>
+        </footer>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
